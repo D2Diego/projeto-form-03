@@ -1,0 +1,181 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Staatliches', cursive;*/
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #535971;
+}
+
+#page {
+    width: 750px;
+    margin: auto;
+}
+
+header {
+    width: 319px;
+    margin-top: 140px;
+}
+
+header h1 {
+    font-family: 'Staatliches';
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+header p {
+    font-family: 'Poppins';
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+}
+
+form {
+    background: #FFFFFF;
+    min-height: 300px;
+
+    padding: 64px;
+
+
+}
+
+fieldset {
+    border-style: none;
+}
+
+
+legend {
+    font-family: 'Staatliches';
+    font-size: 24px;
+    line-height: 34px;
+    color: #535971;
+    margin-bottom: 36px;
+
+    border-bottom: 1px solid #E6E6F0;
+
+    width: 100%;
+    padding-bottom: 16px;
+}
+
+
+#event-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+#event-name,
+#event-sobrename {
+    width: 300px;
+    height: 56px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+}
+
+div>input {
+    width: 622px;
+    height: 56px;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+label {
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #4E4958;
+}
+
+span {
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #C1BCCC;
+}
+
+.event-wrapper2 {
+    margin-top: 30px;
+}
+
+#subtitle {
+    font-family: 'Staatliches';
+    font-size: 20px;
+    line-height: 34px;
+    color: #535971;
+
+
+    margin-bottom: 11pxS;
+}
+
+#event-wrapper2 span {
+    margin-left: 8px;
+}
+
+#section {
+    display: flex;
+    gap: 22px;
+
+}
+
+#event-date {
+    width: 300px;
+}
+
+#event-time {
+    width: 140px;
+}
+
+footer {
+    height: 100px;
+    background: #535971;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 52px 71px;
+    margin-bottom: 100px;
+
+    border-radius: 0px 0px 20px 20px;
+}
+
+footer #input-footer {
+    width: 608px;
+    height: 56px;
+
+    background: #FF5374;
+    border-radius: 20px;
+
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    border-style: none;
+
+    color: #FFFFFF;
+}
